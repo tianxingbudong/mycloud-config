@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      dev
+---
+spring:
+  profiles: dev
+    application:
+      name: mycloud-config-forservice-dev
+---
+spring:
+  profiles: test
+    application:
+      name: mycloud-config-forservice-test
