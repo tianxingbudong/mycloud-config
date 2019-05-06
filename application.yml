@@ -1,14 +1,13 @@
 spring:
   profiles:
-    active:
-      dev
+    active: dev
 ---
 spring:
   profiles: dev
-    application:
-      name: mycloud-config-forservice-dev
+  application:
+    name: mycloud-config-forservice-dev
 ---
 spring:
   profiles: test
-    application:
-      name: mycloud-config-forservice-test
+  application:
+    name: mycloud-config-forservice-test

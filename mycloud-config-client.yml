@@ -1,14 +1,13 @@
 spring:
   profiles:
-    active:
-      dev
+    active: dev
 ---
 server:
   port: 8021
 spring:
   profiles: dev
-    application:
-      name: mycloud-config-client
+  application:
+    name: mycloud-config-client
 eureka:
   client:
     service-url:
@@ -18,8 +17,8 @@ server:
   port: 8022
 spring:
   profiles: test
-    application:
-      name: mycloud-config-client
+  application:
+    name: mycloud-config-client
 eureka:
   client:
     service-url:
